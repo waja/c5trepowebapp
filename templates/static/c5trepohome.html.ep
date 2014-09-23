@@ -5,8 +5,15 @@
 </div>
 <h3>Introduction</h3>
 <p>
-This is a package repository, intended to be used on <a
-href="http://www.debian.org/intro/about">Debian</a> systems, which hosts
-serveral <a href="http://wiki.debian.org/RepositoryFormat#Suite">suites</a>.
-This suites have different purposes.
+This is a package repository which hosts serveral <a
+href="http://wiki.debian.org/RepositoryFormat#Suite"i target="new">suites</a>,
+intended to be used on <a href="http://www.debian.org/intro/about"
+target="new">Debian</a> systems.</p>
+<p>
+This suites (or also called distributions) have different purposes. The
+backports suites are used to provide backported packages from newer
+distributions to older.
+Other are used to update (you can also call it fix) packages in distributions
+which are not (yet) fixed in the official distribution. There are even suites
+used as staging area before we upload them into official archives.
 </p>
