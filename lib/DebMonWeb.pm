@@ -32,7 +32,8 @@ sub startup {
   $r->get('contributing')->to('static#contributing')->name('contributing');
   $r->get('mailinglists')->to('static#mailinglists')->name('mailinglists');
 
-  $r->get('/packages')->to('packages#overview')->name('packageoverview');
-  $r->get('/packages/:dist/:package')->to('packages#package')->name('package');
+  $r->get('/repository')->to('static#c5trepohome')->name('home');
+  $r->get('/repository/packages')->to('packages#overview')->name('packageoverview');
+  $r->get('/repository/packages/:dist/:package')->to('packages#package')->name('package');
 }
 1;
