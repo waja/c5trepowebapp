@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Debmon / <%= title %></title>
+		<title>c5trepo / <%= title %></title>
 		<link href="/css/bootstrap.min.css" rel="stylesheet">
       <link href="/css/debmon.css" rel="stylesheet">
 		<style type="text/css">
@@ -14,7 +14,7 @@
 			}
       </style>
       <!-- Piwik -->
-      <script type="text/javascript">
+<!--      <script type="text/javascript">
          var _paq = _paq || [];
          _paq.push(["trackPageView"]);
          _paq.push(["enableLinkTracking"]);
@@ -26,7 +26,7 @@
           var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
           g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
           })();
-       </script>
+       </script> -->
        <!-- End Piwik Code -->
 	</head>
 	<body>
@@ -38,7 +38,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</a>
-					<a class="brand" href="#">Debian Monitoring Project</a>
+					<a class="brand" href="#">Cyconet Debian Package Repository</a>
 					<div class="nav-collapse collapse">
 					</div><!--/.nav-collapse -->
 				</div>
@@ -69,7 +69,9 @@
   <hr>
 
   <footer>
-  <p>&copy; 2014 the Debian Monitoring Project</p>
+  <p>&copy; 2014 the Cyconet Debian Package Repository <br>
+     <span style="font-size: x-small;">Based on the great work by <a href="https://github.com/formorer/debmon-webapp" target="new">debmon.org</a></span>
+  </p>
   </footer>
 
 	 </div><!--/.fluid-container-->
