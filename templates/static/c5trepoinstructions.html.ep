@@ -20,7 +20,7 @@ Afterwards you can install packages with the following commands:
 <p>
 <pre>
 $ apt-get update
-$ apt-get install -t wheezy-backports <package>
+$ apt-get install -t wheezy-backports &lt;package&gt;
 </pre>
 </p>
 <p><span style="font-size: font-size:50%;">
@@ -46,7 +46,7 @@ Afterwards you can install packages with the following commands:
 <p>
 <pre>
 $ apt-get update
-$ apt-get install -t suqeeze-backports <package>
+$ apt-get install -t suqeeze-backports &lt;package&gt;
 </pre>
 </p>
 <p><span style="font-size: font-size:50%;">
