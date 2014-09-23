@@ -24,15 +24,16 @@ sub startup {
   }
 
   # Normal route to controller
-  $r->get('/')->to('static#home')->name('home');
-  $r->post('github')->to('github#process')->name('github');
-  $r->get('/instructions')->to('static#instructions')->name('instructions');
-  $r->get('icingadoc')->to('static#icingadoc')->name('icingadoc');
-  $r->get('IcingaIdoutilsIcingaWebInstallation')->to('static#IcingaIdoutilsIcingaWebInstallation')->name('IcingaIdoutilsIcingaWebInstallation');
-  $r->get('contributing')->to('static#contributing')->name('contributing');
-  $r->get('mailinglists')->to('static#mailinglists')->name('mailinglists');
+#  $r->get('/')->to('static#home')->name('home');
+#  $r->post('github')->to('github#process')->name('github');
+#  $r->get('/instructions')->to('static#instructions')->name('instructions');
+#  $r->get('icingadoc')->to('static#icingadoc')->name('icingadoc');
+#  $r->get('IcingaIdoutilsIcingaWebInstallation')->to('static#IcingaIdoutilsIcingaWebInstallation')->name('IcingaIdoutilsIcingaWebInstallation');
+#  $r->get('contributing')->to('static#contributing')->name('contributing');
+#  $r->get('mailinglists')->to('static#mailinglists')->name('mailinglists');
 
-  $r->get('/repository')->to('static#c5trepohome')->name('home');
+  $r->get('/repository')->to('static#c5trepohome')->name('c5trepohome');
+  $r->get('/repository/instructions')->to('static#c5trepoinstructions')->name('c5trepoinstructions');
   $r->get('/repository/packages')->to('packages#overview')->name('packageoverview');
   $r->get('/repository/packages/:dist/:package')->to('packages#package')->name('package');
 }
