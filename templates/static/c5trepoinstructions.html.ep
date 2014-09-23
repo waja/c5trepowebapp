@@ -10,7 +10,7 @@ To use backported packages on wheezy you need to add a file in
 
 <p>
 <pre>
-$ wget "http://ftp.cyconet.org/debian/sources.list.d/wheezy-backports-cyconet.list" \
+$ wget "http://ftp.cyconet.org/debian/sources.list.d/wheezy-backports-cyconet.list" \\
     -O /etc/apt/sources.list.d/wheezy-backports-cyconet.list
 </pre>
 </p>
@@ -23,6 +23,9 @@ $ apt-get update
 $ apt-get install -t wheezy-backports <package>
 </pre>
 </p>
+<p><span style="font-size: font-size:50%;">
+It is recommended that you also <a href="http://backports.debian.org/Instructions/" target="new">include the official backports source list</a>
+</span></p>
 
 <div class="page-header">
 <h2>Debian Oldstable (squeeze)</h2>
@@ -33,7 +36,7 @@ To use backported packages on squeeze you need to add a file in
 
 <p>
 <pre>
-$ wget "http://ftp.cyconet.org/debian/sources.list.d/wheezy-updates-cyconet.list" \
+$ wget "http://ftp.cyconet.org/debian/sources.list.d/wheezy-updates-cyconet.list" \\
     -O /etc/apt/sources.list.d/wheezy-updates-cyconet.list
 </pre>
 </p>
@@ -46,6 +49,9 @@ $ apt-get update
 $ apt-get install -t suqeeze-backports <package>
 </pre>
 </p>
+<p><span style="font-size: font-size:50%;">
+It is recommended that you also <a href="http://backports.debian.org/Instructions/" target="new">include the official backports source list</a>
+</span></p>
 
 <div class="page-header">
 <h2>Importing the archive key</h2>
