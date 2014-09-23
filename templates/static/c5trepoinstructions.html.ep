@@ -24,7 +24,7 @@ $ apt-get install -t wheezy-backports <package>
 </pre>
 </p>
 <p><span style="font-size: font-size:50%;">
-It is recommended that you also <a href="http://backports.debian.org/Instructions/" target="new">include the official backports source list</a>
+It is recommended that you also <a href="http://backports.debian.org/Instructions/" target="new">include the official backports source list</a>.
 </span></p>
 
 <div class="page-header">
@@ -50,7 +50,7 @@ $ apt-get install -t suqeeze-backports <package>
 </pre>
 </p>
 <p><span style="font-size: font-size:50%;">
-It is recommended that you also <a href="http://backports.debian.org/Instructions/" target="new">include the official backports source list</a>
+It is recommended that you also <a href="http://backports.debian.org/Instructions/" target="new">include the official backports source list</a>.
 </span></p>
 
 <div class="page-header">
