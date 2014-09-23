@@ -1,6 +1,13 @@
 % layout 'default';
 % title 'Available packages';
 
+<h4>We have (at least) the following distributions available:</h4>
+<p>
+% foreach my $dist (sort(keys( %{$packagedata}))) {
+<%= $dist %> 
+% }
+</p>
+
 % foreach my $dist (sort(keys( %{$packagedata}))) {
 <table class="table table-bordered table-hover table-condensed table-striped">
 <caption><h4>Packages in <%= $dist %></h4></caption>
