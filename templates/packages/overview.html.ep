@@ -4,13 +4,13 @@
 <h4>We have (at least) the following distributions available:</h4>
 <p>
 % foreach my $dist (sort(keys( %{$packagedata}))) {
-<%= $dist %> 
+<a href="#<%= $dist %>"><%= $dist %></a>
 % }
 </p>
 
 % foreach my $dist (sort(keys( %{$packagedata}))) {
 <table class="table table-bordered table-hover table-condensed table-striped">
-<caption><h4>Packages in <%= $dist %></h4></caption>
+<caption><h4><a name="<%= $dist %>">Packages in <%= $dist %></a></h4></caption>
 <thead>
 <tr>
 <th>Package</th>
