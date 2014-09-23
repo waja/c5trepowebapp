@@ -36,8 +36,8 @@ To use backported packages on squeeze you need to add a file in
 
 <p>
 <pre>
-$ wget "http://ftp.cyconet.org/debian/sources.list.d/wheezy-updates-cyconet.list" \\
-    -O /etc/apt/sources.list.d/wheezy-updates-cyconet.list
+$ wget "http://ftp.cyconet.org/debian/sources.list.d/squeeze-backports-cyconet.list" \\
+    -O /etc/apt/sources.list.d/squeeze-backports-cyconet.list
 </pre>
 </p>
 <p>
@@ -46,7 +46,7 @@ Afterwards you can install packages with the following commands:
 <p>
 <pre>
 $ apt-get update
-$ apt-get install -t suqeeze-backports &lt;package&gt;
+$ apt-get install -t squeeze-backports &lt;package&gt;
 </pre>
 </p>
 <p><span style="font-size: font-size:50%;">
