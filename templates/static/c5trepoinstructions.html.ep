@@ -2,7 +2,7 @@
 % title 'Instructions';
 
 <div class="page-header">
-<h2>Debian Stable (wheezy)</h2>
+<h2>Packages for Debian Stable (wheezy-backports)</h2>
 </div>
 
 To use backported packages on wheezy you need to add a file in
@@ -28,7 +28,7 @@ It is recommended that you also <a href="http://backports.debian.org/Instruction
 </span></p>
 
 <div class="page-header">
-<h2>Debian Oldstable (squeeze)</h2>
+<h2>Packages for Debian Oldstable (squeeze-backports)</h2>
 </div>
 
 To use backported packages on squeeze you need to add a file in
