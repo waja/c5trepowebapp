@@ -18,7 +18,7 @@ Some packages, like <em>icingaweb2</em>, might have dependencies from jessie bac
 </p>
 <p>
 <pre>
-deb http://httpredir.debian.org/debian jessie-backports main
+deb http://deb.debian.org/debian jessie-backports main
 </pre>
 </p>
 <p>
