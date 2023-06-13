@@ -2,16 +2,16 @@
 % title 'Instructions';
 
 <div class="page-header">
-<h2>Packages for Debian Stable (stretch-backports)</h2>
+<h2>Packages for Debian Stable (bookworm-backports)</h2>
 </div>
 
-To use backported packages on stretch you need to add a file in
+To use backported packages on bookworm you need to add a file in
 <code>/etc/apt/sources.list.d/</code>.
 
 <p>
 <pre>
-$ wget "http://ftp.cyconet.org/debian/sources.list.d/stretch-backports-cyconet.list" \\
-    -O /etc/apt/sources.list.d/stretch-backports-cyconet.list
+$ wget "http://ftp.cyconet.org/debian/sources.list.d/bookworm-backports-cyconet.list" \\
+    -O /etc/apt/sources.list.d/bookworm-backports-cyconet.list
 </pre>
 </p>
 <p>
@@ -20,7 +20,7 @@ Afterwards you can install packages with the following commands:
 <p>
 <pre>
 $ apt-get update
-$ apt-get install -t stretch-backports &lt;package&gt;
+$ apt-get install -t bookworm-backports &lt;package&gt;
 </pre>
 </p>
 <p><span style="font-size: font-size:50%;">
@@ -51,16 +51,16 @@ OK
 </p>
 
 <div class="page-header">
-<h2>Packages for Debian Oldstable (jessie-backports)</h2>
+<h2>Packages for Debian Oldstable (bullseye-backports)</h2>
 </div>
 
-To use backported packages on jessie you need to add a file in
+To use backported packages on bullseye you need to add a file in
 <code>/etc/apt/sources.list.d/</code>.
 
 <p>
 <pre>
-$ wget "http://ftp.cyconet.org/debian/sources.list.d/jessie-backports-cyconet.list" \\
-    -O /etc/apt/sources.list.d/jessie-backports-cyconet.list
+$ wget "http://ftp.cyconet.org/debian/sources.list.d/bullseye-backports-cyconet.list" \\
+    -O /etc/apt/sources.list.d/bullseye-backports-cyconet.list
 </pre>
 </p>
 <p>
