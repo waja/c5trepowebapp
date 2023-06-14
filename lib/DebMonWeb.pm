@@ -11,7 +11,6 @@ sub startup {
   'debmonweb.conf';
 
   my $config = $self->plugin('Config', {file  => $configfile});
-  #my $piwik =  $self->plugin('Piwik');
 
   if ($config->{logfile}) {
     my $loglevel = $config->{loglevel} || 'info';
