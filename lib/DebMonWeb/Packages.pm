@@ -11,7 +11,7 @@ sub _loadpackagedata {
         compress   => 1,
     );
 
-    my $config = $self->stash('config');
+    my $config = $self->app->config;
 
     if (defined $config->{repodata} && -e $config->{repodata} ) {
         my $ref = $serializer->retrieve($config->{repodata});
