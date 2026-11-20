@@ -34,6 +34,6 @@ sub startup {
   $r->get('/')->to('static#c5trepohome')->name('c5trepohome');
   $r->get('/instructions')->to('static#c5trepoinstructions')->name('c5trepoinstructions');
   $r->get('/packages')->to('packages#overview')->name('packageoverview');
-  $r->get('/packages/:dist/:package')->to('packages#package')->name('package');
+  $r->get('/packages/:dist/#package')->to('packages#package')->name('package');
 }
 1;
