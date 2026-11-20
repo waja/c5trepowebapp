@@ -3,7 +3,7 @@
 	<head>
 		<title>c5trepo / <%= title %></title>
 		<link href="/css/bootstrap.min.css" rel="stylesheet">
-      <link href="/css/debmon.css" rel="stylesheet">
+		<link href="/css/debmon.css" rel="stylesheet">
 		<style type="text/css">
 			body {
 				padding-top: 60px;
